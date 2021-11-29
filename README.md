@@ -137,3 +137,15 @@ $ git status
 - Whether current branch is up to date.
 - Any thing remained uncommited, not pushed in the branch or not pulled from the branch.
 - Files are staged or not staged.
+- Any files that are `created`, `modified` or `deleted`
+
+### `Git Log`
+- Provides the entire commit `history` for the repository.
+```git
+$ git log
+
+# Click spacebar to scroll and Q to quit.
+
+# View only last n commit history :
+$ git log -n 3
+```
