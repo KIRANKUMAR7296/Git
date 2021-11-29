@@ -85,6 +85,7 @@ $ git push <remote> <branch-name>
 - Allow you to `fetch` all the changes that you teammates pushed and automatically `merge` into local repo.
 ```git
 $ git pull <remote>
+```
 
 ### `Git Diff`
 - Quickly see the difference between current branch and another branch ( Branches you want to `merge` )
@@ -128,3 +129,11 @@ $ git stash apply stash@{1}
 $ git stash pop stash@{0}
 ```    
 ### `Git Status`
+- Tell you the current status
+```git
+$ git status
+```
+- Current branch
+- Whether current branch is up to date.
+- Any thing remained uncommited, not pushed in the branch or not pulled from the branch.
+- Files are staged or not staged.
