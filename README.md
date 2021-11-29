@@ -149,3 +149,9 @@ $ git log
 # View only last n commit history :
 $ git log -n 3
 ```
+
+### `Git Merge`
+- Once you are done with development inside feature branch and tested your code,
+- You can `merge` your branch with the `parent` branch.
+- This could be either a develop branch or a master branch depending on `git workflow`
+- When running a `git merge` command, you first need to be on specific branch that you want to merge.
